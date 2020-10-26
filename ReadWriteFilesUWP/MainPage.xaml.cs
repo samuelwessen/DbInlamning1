@@ -59,7 +59,7 @@ namespace ReadWriteFilesUWP
         private async void btnLoadjsonfile_Click(object sender, RoutedEventArgs e)
         {
             var json = new FileOpenPicker();
-            json.ViewMode = PickerViewMode.Thumbnail;
+            json.ViewMode = PickerViewMode.List;
             json.SuggestedStartLocation = PickerLocationId.DocumentsLibrary;
             json.FileTypeFilter.Add(".json");
 
